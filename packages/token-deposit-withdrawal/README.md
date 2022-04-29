@@ -28,6 +28,7 @@ cp .env-sample .env
 
 The following environment variables were added to the modified version of this tutorial:
 
+```
 ETH_FLAG - Set to `true` to set deposits and withdrawals for ETH, default deposits and withdrawals use DappTokens
 DEPOSIT_AMOUNT - Amount of DappTokens to deposit into L2
 ETH_DEPOSIT - Amount of ETH to deposit into L2 (in ETH)
@@ -38,6 +39,7 @@ DAPP_CONTRACT - DappToken contract address (set this to re-use deployed contract
 FACTORY_CONTRACT - Clone factory contract address (set this to re-use deployed contracts)
 MASTER_CONTRACT - Master contract address (set this to re-use deployed contracts)
 CHILD_CONTRACT - Child clone contract address (set this to re-use deployed contracts)
+```
 
 ### Run:
 
