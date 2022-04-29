@@ -12,29 +12,13 @@ From root directory:
 yarn install
 ```
 
-## What's included?
+### Note: Updated to just include details related to token deposits and withdrawals
 
-#### :white_check_mark: Basics
+To run POC demo navigate to `packages/token-deposit-withdrawal`
+Ensure that environment variables are properly set in the package (especially the wallet settings and infura API endpoints).
 
-- 🐹 [Pet Shop DApp](./packages/demo-dapp-pet-shop/) (L2 only)
-- 🗳 [Election DApp](./packages/demo-dapp-election/) (L2 only)
-
-#### :white_check_mark: Moving Stuff around
-
-- ⤴️ 🔹 [Deposit Ether](./packages/eth-deposit/)
-- ⤵️ 🔹 [Withdraw Ether](./packages/eth-withdraw/)
-- ⤴️ 💸 [Deposit Token](./packages/token-deposit/)
-- ⤵️ 💸 [Withdraw token](./packages/token-withdraw/)
-
-#### :white_check_mark: General Interop
-
-- 🤝 [Greeter](./packages/greeter/) (L1 to L2)
-- 📤 [Outbox](./packages/outbox-execute/) (L2 to L1)
-
-#### :white_check_mark: Advanced Features
-
-- ®️ [Arb Address Table](./packages/address-table/)
-- 🌉 [Bridging Custom Token](./packages/custom-token-bridging/)
+The testnet used is Rinkeby, therefore a test wallet will need to be created and populated with test ETH.  
+A connection will need to be made to the RinkArby testnet as well.  You can learn more via the following link: https://developer.offchainlabs.com/docs/public_testnet.
 
 <p align="center">
   <img width="350" height="100" src= "https://arbitrum.io/wp-content/uploads/2021/01/cropped-Arbitrum_Horizontal-Logo-Full-color-White-background-scaled-1.jpg" />
